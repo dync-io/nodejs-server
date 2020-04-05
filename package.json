@@ -1,0 +1,54 @@
+{
+  "name": "@dync-io/nodejs-server",
+  "author": "Érycson Nóbrega <egdn2004@gmail.com>",
+  "description": "Open source Pusher implementation compatible with Pusher libraries",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "pusher",
+    "node",
+    "websocket",
+    "pubsub",
+    "events",
+    "server"
+  ],
+  "dependencies": {
+    "@nanoexpress/pro-slim": "github:nanoexpress/pro-slim",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "moment": "^2.24.0",
+    "redis": "^3.0.2",
+    "bufferutil": "^4.0.1",
+    "utf-8-validate": "^5.0.2"
+  },
+  "scripts": {
+    "genkey": "node -e \"console.log(crypto.randomBytes(10).toString('hex'))\"",
+    "start": "node -r dotenv/config src/index.mjs",
+    "test": "jasmine",
+    "format": "prettier --config .prettierrc --write 'src/**/*.mjs'",
+    "check-format": "prettier --config .prettierrc --check 'src/**/*.mjs'"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.1",
+    "utf-8-validate": "^5.0.2"
+  },
+  "devDependencies": {
+    "debug": "^4.1.1",
+    "jasmine": "^3.5.0",
+    "pusher-js": "^5.1.1"
+  },
+  "config": {
+    "jshintConfig": {
+      "esversion": 6
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dync-io/nodejs-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dync-io/nodejs-server/issues"
+  },
+  "homepage": "https://github.com/dync-io/nodejs-server#readme"
+}
