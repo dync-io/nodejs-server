@@ -2,11 +2,12 @@
 # yarn lockfile v1
 
 
-"@nanoexpress/pro-slim@nanoexpress/pro-slim":
-  version "2.0.3"
-  resolved "https://codeload.github.com/nanoexpress/pro-slim/tar.gz/8cc95647e459cbd168104741e55e6a528f89ee6b"
+"@nanoexpress/pro-slim@github:nanoexpress/pro-slim":
+  version "3.0.0"
+  uid "4883e8d51596fd0521b9ebaab24389c40dd7e7ec"
+  resolved "https://codeload.github.com/nanoexpress/pro-slim/tar.gz/4883e8d51596fd0521b9ebaab24389c40dd7e7ec"
   dependencies:
-    uWebSockets.js "github:uNetworking/uWebSockets.js#v17.3.0"
+    uWebSockets.js "https://github.com/uNetworking/uWebSockets.js/archive/v20.24.0.tar.gz"
 
 balanced-match@^1.0.0:
   version "1.0.0"
@@ -102,9 +103,9 @@ jasmine@^3.5.0:
     jasmine-core "~3.5.0"
 
 minimatch@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
-  integrity sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
+  integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
   dependencies:
     brace-expansion "^1.1.7"
 
@@ -172,9 +173,10 @@ redis@^3.0.2:
     redis-errors "^1.2.0"
     redis-parser "^3.0.0"
 
-"uWebSockets.js@github:uNetworking/uWebSockets.js#v17.3.0":
-  version "17.3.0"
-  resolved "https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/f54d0b45d1d9924d2562fd8f6f59cbca2bcbcc2c"
+"uWebSockets.js@https://github.com/uNetworking/uWebSockets.js/archive/v20.24.0.tar.gz":
+  version "20.24.0"
+  uid c373a39836f019b7826724767c3f7d8be71d6c23
+  resolved "https://github.com/uNetworking/uWebSockets.js/archive/v20.24.0.tar.gz#c373a39836f019b7826724767c3f7d8be71d6c23"
 
 utf-8-validate@^5.0.2:
   version "5.0.2"
